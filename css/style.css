@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --colorFondo: #000;
+    --colorLetras: #FFF;
+}
+.contenedor {
+    width: 95%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.header{
+    background-color: var(--colorFondo);
+    height: 300px;
+    padding: 10px;
+    position: relative;
+}
+.hero{
+    background-image: url(/img/hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75%;
+    height: 350px;
+    margin: 0 auto;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+main p{
+    margin-top: 120px;
+    text-align: justify;
+    font-size: 18px;
+    padding: 25px;
+    text-align: center;
+}
+main p span{
+    font-size: 22px;
+    font-weight: 900;
+}
+main .logo{
+    background-image: url(/img/logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75%;
+    height: 133px;
+    margin: 0 auto;
+}
+section h2{
+    text-align: center;
+}
+.red{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.red img{
+    width: 50px;
+}
+.red a{
+    text-decoration: none;
+    color: var(--colorFondo);
+    font-size: 20px;
+    
+
+}
+footer p{
+    text-align: center;
+}
