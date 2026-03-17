@@ -39,6 +39,7 @@ main p{
     font-size: 18px;
     padding: 25px;
     text-align: center;
+    margin-bottom: 0;
 }
 main p span{
     font-size: 22px;
@@ -50,7 +51,7 @@ main .logo{
     background-repeat: no-repeat;
     background-size: cover;
     width: 75%;
-    height: 133px;
+    height: 120px;
     margin: 0 auto;
 }
 section h2{
@@ -61,7 +62,6 @@ section h2{
     gap: 10px
 }
 .red{
-    border: 1px solid gray;
     padding: 10px;
     border-radius: 10px;
     display: flex;
@@ -83,7 +83,6 @@ section h2{
     color: var(--colorLetras);
     font-size: 30px;
     font-weight: 600;
-
 }
 footer p{
     text-align: center;
