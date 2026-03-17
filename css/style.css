@@ -24,7 +24,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     width: 75%;
-    height: 350px;
+    height: 300px;
     margin: 0 auto;
     border: 1px solid #FFF;
     border-radius: 10px;
@@ -34,7 +34,7 @@ body{
     transform: translate(-50%, -50%);
 }
 main p{
-    margin-top: 120px;
+    margin-top: 70px;
     text-align: justify;
     font-size: 18px;
     padding: 25px;
@@ -56,6 +56,10 @@ main .logo{
 section h2{
     text-align: center;
 }
+.redes{
+    display: grid;
+    gap: 10px
+}
 .red{
     border: 1px solid gray;
     padding: 10px;
@@ -63,16 +67,22 @@ section h2{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 20px;
+    justify-content: center;
+}
+.face{
+    background-color: #1877F2;
+}
+.insta{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 }
 .red img{
     width: 50px;
 }
 .red a{
     text-decoration: none;
-    color: var(--colorFondo);
-    font-size: 20px;
-    
+    color: var(--colorLetras);
+    font-size: 30px;
+    font-weight: 600;
 
 }
 footer p{
